@@ -29,7 +29,7 @@ namespace UPB.BusinessLogic.Managers
         {
             PatientCode code = new PatientCode(nombre, apellido, ci);
             codigos.Add(code);
-            Console.WriteLine("Estoy en la funcion de crear de la practica 3");
+            
             return GenerarCodigo(code);
         }
         public void UpdateCode(string nombre, string apellido, int ci)
